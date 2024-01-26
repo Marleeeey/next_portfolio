@@ -2,9 +2,11 @@ import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      <h1 className='font-semibold text-zinc-600'>hello world</h1>
-    </div>
+    <main className='w-full h-full'>
+      <div className='flex flex-col gap-20'>
+
+      </div>
+    </main>
   )
 }
 
