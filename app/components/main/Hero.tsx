@@ -1,3 +1,5 @@
+import HeroContent from "../sub/HeroContent";
+
 const Hero = () => {
   return (
     <div className="relative flex flex-col w-full">
@@ -9,6 +11,7 @@ const Hero = () => {
       >
         <source src="/blackhole.webm" type="video/webm" />
       </video>
+      <HeroContent />
     </div>
   );
 };
