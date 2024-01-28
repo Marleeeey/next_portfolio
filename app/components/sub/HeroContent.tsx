@@ -1,7 +1,12 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { slideInFromLeft, slideInFromTop } from "@/utils/motion";
+import Image from "next/image";
+import {
+  slideInFromLeft,
+  slideInFromRight,
+  slideInFromTop,
+} from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/16/solid";
 
 const HeroContent = () => {
@@ -14,7 +19,7 @@ const HeroContent = () => {
       <div className="h-full w-full flex-col flex gap-5 justify-center m-auto text-start ">
         <motion.div
           variants={slideInFromTop}
-          className="Welcome-box p-[15px] px-[4px] border-[#7042f88b] opacity-[0.9]"
+          className="Welcome-box p-[15px] px-[7px] border-[#7042f88b] opacity-[0.9]"
         >
           <SparklesIcon className="text-[#b49bff] mr-[10px] h-5 w-5" />
           <h1 className="welcome-text text-[13px]">
@@ -28,11 +33,9 @@ const HeroContent = () => {
           variants={slideInFromLeft(0.5)}
           className="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto "
         >
-          Providing
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
-            the best
-          </span>
-          project experience
+          <span>
+            Providing
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500"> the best </span>project experience </span>
         </motion.div>
         {/* the paragraphe section  */}
         <motion.p
@@ -47,8 +50,24 @@ const HeroContent = () => {
           top-notch performance.
         </motion.p>
         {/* the buttoun learn More */}
-        
+        <motion.a
+          variants={slideInFromLeft(0.9)}
+          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+        >
+          Learn more!
+        </motion.a>
       </div>
+      <motion.div
+        variants={slideInFromRight(0.9)}
+        className="w-full h-full flex items-center justify-center"
+      >
+        <Image
+          src="/mainIconsdark.svg"
+          alt="main-Icons"
+          width={650}
+          height={650}
+        />
+      </motion.div>
     </motion.div>
   );
 };
