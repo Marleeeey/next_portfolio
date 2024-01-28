@@ -9,7 +9,7 @@ const Skills = () => {
       style={{ transform: "scale(0.9)" }}
       className="relative flex flex-col items-center justify-center gap-3 h-full overflow-hidden py-20"
     >
-      <div className="flex flex-row justify-between flex-wrap mt-4 gap-5 items-center">
+      <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
         {Frontend_skill.map((image, index) => (
             <SkillsDataProvider 
             src={image.Image}
