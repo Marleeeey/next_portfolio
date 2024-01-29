@@ -10,7 +10,7 @@ import { SparklesIcon } from "@heroicons/react/16/solid";
 
 const SkillText = () => {
   return (
-    <div className="w-full h-auto flex items-center justify-between">
+    <div className="w-full h-auto flex items-center justify-between flex-col">
       <motion.div
         variants={slideInFromTop}
         className="Welcome-box p-[15px] px-[7px] border-[#7042f88b] opacity-[0.9]"
