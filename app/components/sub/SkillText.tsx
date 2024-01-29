@@ -8,6 +8,7 @@ import {
 } from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/16/solid";
 
+
 const SkillText = () => {
   return (
     <div className="w-full h-auto flex items-center justify-between flex-col">
@@ -31,7 +32,6 @@ const SkillText = () => {
       className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
         Never miss a task deadline or idea
-
       </motion.div>
     </div>
   );

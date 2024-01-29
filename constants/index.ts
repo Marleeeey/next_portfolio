@@ -30,12 +30,6 @@ export const Skill_data = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React Query",
     Image: "/reactquery.png",
     width: 80,
@@ -56,12 +50,6 @@ export const Skill_data = [
   {
     skill_name: "Framer Motion",
     Image: "/framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe Payment",
-    Image: "/stripe.webp",
     width: 80,
     height: 80,
   },
@@ -132,12 +120,6 @@ export const Frontend_skill = [
     height: 80,
   },
   {
-    skill_name: "Redux",
-    Image: "/redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
     skill_name: "React Query",
     Image: "/reactquery.png",
     width: 80,
@@ -164,12 +146,7 @@ export const Backend_skill = [
     width: 80,
     height: 80,
   },
-  {
-    skill_name: "Express js",
-    Image: "/express.png",
-    width: 80,
-    height: 80,
-  },
+  
   {
     skill_name: "Mongo db",
     Image: "/mongodb.png",
@@ -200,27 +177,10 @@ export const Backend_skill = [
     width: 70,
     height: 70,
   },
-  {
-    skill_name: "Graphql",
-    Image: "/graphql.png",
-    width: 80,
-    height: 80,
-  },
+  
 ];
 
 export const Full_stack = [
-  {
-    skill_name: "React Native",
-    Image: "/ReactNative .png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    Image: "/tauri.svg",
-    width: 70,
-    height: 70,
-  },
   {
     skill_name: "Docker",
     Image: "/docker.webp",
