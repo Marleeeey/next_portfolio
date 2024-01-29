@@ -3,6 +3,7 @@ import Hero from './components/main/Hero';
 import Skills from './components/main/Skills';
 import Encryptions from './components/sub/Encryptions';
 import Projects from './components/main/Projects';
+import Footer from './components/main/Footer';
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
         <Skills />
         <Encryptions />
         <Projects />
+        <Footer />
       </div>
     </main>
   )
